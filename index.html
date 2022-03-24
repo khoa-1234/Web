@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="csssheet" type="text/css" href="/html/css.css">
+    <link rel="stylesheet" type="text/css" href="css.css">
     <style>
         
     </style>
 </head>
 <body>
   <header>
-    <img src="/hinh anh/logo.jpg" alt="">
+    <img src="/img/logo.jpg" alt="">
     <h1>Flower Box360</h1>
     <p>..to get your daily dose of luxury roses!</p>
     <form action="">
         <input type="search" id="txtsearch" placeholder="tìm nè" size="30">
         <button>Go</button>
     </form>
-    <ul class="menu">
+    <ul class="menu-parent">
         <li><a href="#link">Home</a></li>
         <li><a href="#lin">Promotion</a></li>
         <li><a href="#link">Gift Baskets</a></li>
         <li><a href="#link">Flower Services</a>
-            <ul class="sub-menu">
+            <ul class="menu-child">
                 <li><a href="">Folwer for wedding</a></li>
                 <li><a href="">Folwer ok</a></li>
             </ul>
@@ -33,5 +33,22 @@
     </ul>
     
   </header>
+  <section>
+      <h3> why not Contact us Today</h3>
+      <form action="">
+          <p><i> for Folwerbox 360 shopper, that means not onl can you send your bla bla bla blab bla</i>
+          </p>
+          <div class="form-row">
+              <div class="form-col">
+                  <label for="txtName">Name</label><br>
+                  <input type="text" id="txtName">
+              </div>
+              <div class="form-col">
+                  <lable for="txtEmail">Email</lable><br>
+                  <input type="email" id="txtEmail">
+              </div>
+          </div>
+      </form>
+  </section>
 </body>
 </html>
