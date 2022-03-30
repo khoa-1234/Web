@@ -19,7 +19,11 @@
         position: absolute;
         top: 20px;
         left: 20px;
+        transition: width 2s, height 2s, transform 2s;
+        
     }
+    #header
+
     
     #header h1 {
         position: absolute;
@@ -168,4 +172,4 @@
         background-size: cover;
         
     }
-       
+   
