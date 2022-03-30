@@ -22,7 +22,9 @@
         transition: width 2s, height 2s, transform 2s;
         
     }
-    #header
+    #header img:hover{
+        transform: rotate(180deg);
+    }
 
     
     #header h1 {
@@ -160,14 +162,16 @@
     }
     
     #footer {
+        
         clear: both;
         background-color: #294e79;
         /* background-image: linear-gradient(red, white); */
         padding: 5px;
     }
+   
     
     #banner {
-        height: 150px;
+        height: 80px;
         background-image: url(../img/banner.PNG);
         background-size: cover;
         
